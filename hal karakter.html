@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<head>
+  <title>WikiFire</title>
+  <link rel="stylesheet" href="ini teh style nya.css" /> <!--style-->
+</head>
+<body>
+<style>
+  header {
+      background: #84878c;
+      padding: 2rem;
+      position: relative;      
+      z-index: 1;
+  }
+</style>  
+<header style="display: flex; flex-direction: column; align-items: flex-start; padding: 2rem 2rem 1rem 2rem;">
+    <img src="logo wikifire.png" alt="WikiFire Logo" style="height:17vh;">
+    <img src="freefire.png" style="height: 15vh; position: absolute; right: 10px;"> 
+</header>
+<a href="hal utama na.html"><img src="homeicon.jpeg" width="5%" height="5%"></a>
+  <table>
+    <thead>
+      <tr>
+        <th>Nama</th>
+        <th>Gambar</th>
+        <th>Story</th>
+        <th>Gender</th>
+        <th>Skill</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="font-size: 40px;">Hayato</td>
+        <td><img src="hayato.png" width="70%" height="70%"></td>
+        <td style="text-align: justify;">Hayato, seorang anak dari keluarga Samurai legendaris.
+            Menjadi satu-satunya anak berarti Hayato harus meneruskan 
+            tradisi dan kutukan keluarga...Samurai muda ini memiliki rahasia yang tidak boleh diketahui orang 
+            lain...Untuk ini, Hayato bersedia mengorbankan hidupnya.</td>
+        <td><img src="male.png" width="50%" height="50%"></td>
+        <td style="text-align: justify;">Bushido <br>Meningkatkan penetrasi armor sebesar 7% setiap kali HP berkurang 10%. 
+            Efek ini dapat diaktifkan hingga 5 kali. 
+            Ketika HP berada di bawah 40%, efek ini akan meningkat menjadi 10% 
+            (efek ini tidak berlaku pada mode Clash Squad).</td>
+      </tr>
+      <tr>
+        <td style="font-size: 40px;">Alvaro</td>
+        <td><img src="Alvaro.png" width="70%" height="70%"></td>
+        <td style="text-align: justify;">Alvaro memulai hidupnya sebagai penjelajah muda yang menemukan peta kuno menuju harta karun legendaris. 
+          Dalam perjalanannya, ia menguasai seni ledakan dan bertarung melawan 
+          rintangan demi membuktikan bahwa keberanian dan kecerdikan bisa mengubah takdir.</td>
+        <td><img src="male.png" width="50%" height="50%"></td>
+        <td style="text-align: justify;">Art of Demolition <br>Meningkatkan damage ledakan hingga 20% di level maksimal.
+            Memperluas jangkauan ledakan hingga 10%.
+            Efek ini berlaku untuk semua senjata eksplosif: granat, launcher, dll</td>
+      </tr>
+      <tr>
+        <td style="font-size: 40px;">Antonio</td>
+        <td><img src="antonio.png" width="70%" height="70%"></td>
+        <td style="text-align: justify;">
+           Antonio adalah mantan gangster yang tumbuh sebagai yatim piatu di jalanan keras. 
+           Ia membentuk geng sendiri dan bertarung demi melindungi orang-orang yang ia sayangi,
+           menjadikan dirinya simbol kekuatan dan keteguhan.
+          </td>
+        <td><img src="male.png" width="50%" height="50%"></td>
+        <td style="text-align: justify;">
+           Gangster's Spirit <br>Memberikan HP tambahan di awal ronde.
+           Di level maksimal, Antonio akan mulai setiap ronde dengan +35 HP ekstra, jadi total HP-nya bisa 
+           mencapai 235 dibandingkan pemain lain yang hanya punya 200 HP.
+           Efek ini langsung aktif tanpa perlu aktivasi, cocok buat mode Clash Squad dan Battle Royale.
+          </td>
+      </tr>
+      <tr>
+        <td style="font-size: 40px;">Kla</td>
+        <td><img src="kla.png" width="70%" height="70%"></td>
+          <td style="text-align: justify;">
+            Kla adalah seorang seniman bela diri ternama, ahli dalam Muay Thai.
+            Beberapa tahun lalu, ia menghilang secara misterius dan tidak ada yang bisa menemukannya. Kla yang muncul kembali di hadapan semua orang bukanlah
+            Kla yang sama seperti yang dikenal di dunia seni bela diri.
+            Kini ia menjadi seorang pembalas dendam, dan tidak menunjukkan belas kasihan kepada siapapun.
+          </td>
+        <td><img src="male.png" width="50%" height="50%"></td>
+        <td style="text-align: justify;">
+            Muay Thai <br>Kla memiliki damage pukulan tangan kosong yang sangat tinggi.
+            Di level maksimal, damage tinjunya bisa mencapai 400% dibandingkan karakter biasa.
+            Skill ini aktif secara otomatis saat kamu menyerang tanpa senjata (melee).
+          </td>
+      </tr>
+      <tr>
+        <td style="font-size: 40px;">Kenta</td>
+        <td><img src="kenta.png" width="70%" height="70%"></td>
+          <td style="text-align: justify;">
+          Kenta telah lama menjadi pengawal sekaligus pandai besi untuk keluarga Hayato Yagami. 
+           Ia adalah pria pendiam yang selalu melindungi tuan mudanya dalam situasi apapun. 
+           Kenta memang memiliki keinginan pribadi, namun ia rela menundanya demi mengabdi kepada Hayato 
+           di masa-masa sulit keluarga Yagami.
+          </td>
+        <td><img src="male.png" width="50%" height="50%"></td>
+        <td style="text-align: justify;">
+          Swordsman's Wrath<br>Kenta menciptakan perisai frontal selebar 5 meter yang mengurangi 80% damage senjata dari arah depan.
+          Perisai ini bergerak mengikuti arah crosshair, jadi kamu bisa tetap maju sambil bertahan.
+          Durasi skill meningkat seiring level:
+          Level 1: 10 detik, cooldown 85 detik
+          Level 6: 15 detik, cooldown 60 detik2
+          Skill akan reset jika kamu menembak
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size: 40px;">
+          Alok
+        </td>
+        <td><img src="alok.png" width="100%" height="100%"></td>
+        <td style="text-align: justify;">
+            Musik dan pertunjukan DJ Alok memiliki energi dan suasana unik yang dapat membangkitkan 
+            perasaan dan emosi terdalam setiap orang. 
+            Alok membagikan keindahan dan kekuatan yang ia lihat dan rasakan kepada 
+            orang-orang di seluruh dunia melalui penampilan musiknya, dan dengan demikian 
+            menularkan kekuatan kuno ini kepada semua orang.
+        </td>
+        <td><img src="male.png" width="50%" height="50%"></td>
+        <td style="text-align: justify;">
+          Drop The Beat<br>
+          Saat diaktifkan, Alok menciptakan aura musik dengan radius 5 meter.
+          Aura ini memberikan dua efek utama:
+          Regenerasi HP: Memulihkan hingga 10 HP per detik di level maksimal.
+          Tambahan kecepatan gerak: Meningkatkan movement speed hingga 15%.
+          Durasi skill: Hingga 10 atau 15 detik, tergantung level.
+          Cooldown: 45 detik.
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size: 40px;">
+          Kelly
+        </td>
+        <td><img src="kelly.png" width="80%" height="80%"></td>
+        <td style="text-align: justify;">
+            Kelly adalah seorang pelari cepat di sekolah menengah.
+            Ia juga dikenal sebagai Shimada Kiriko.
+            Kelly sangat suka berlari, dan selalu terlihat di lintasan.
+            Berlari maju sudah tertanam dalam pikiran dan tubuhnya. Apapun rintangannya, ia akan selalu terus maju.
+            Terus Berlari! KIRIKO!
+        </td>
+        <td><img src="female.jpg" width="50%" height="50%"></td>
+        <td style="text-align: justify;">
+          Dash (Skill Pasif)
+Meningkatkan kecepatan sprint pemain.
+Di level maksimal, Kelly memberikan +6% kecepatan lari.
+Skill ini aktif secara otomatis, jadi kamu bisa rotasi lebih cepat, kabur dari zona, atau nge-rush musuh dengan lebih gesit.
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size: 40px;">
+          Caroline
+        </td>
+        <td><img src="caroline.png" width="110%" height="110%"></td>
+        <td style="text-align: justify;">
+          Caroline, seorang gadis yang tumbuh di keluarga yang sangat kaya raya. Ia selalu dikelilingi oleh pengawal ke mana pun ia pergi.
+      Ia memiliki cukup banyak penggemar untuk memenuhi seluruh stadion. Ia jelas merupakan gadis paling populer di sekolah.
+      Ayah dan teman-temannya--- adalah hal paling berharga dalam hidupnya.
+        </td>
+        <td><img src="female.jpg" width="50%" height="50%"></td>
+        <td style="text-align: justify;">
+          Agility (Skill Pasif)
+Meningkatkan kecepatan gerak saat menggunakan shotgun.
+Di level maksimal, Caroline memberikan +13% movement speed saat kamu memegang senjata jenis shotgun (M1014, SPAS12, dll).
+Skill ini aktif otomatis, jadi kamu bisa langsung rasakan efeknya saat pakai shotgun.
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size: 40px;">
+          Clu
+        </td>
+        <td><img src="clu.jpeg" width="90%" height="90%"></td>
+        <td style="text-align: justify;">
+            Clu tumbuh di pinggiran kota besar. Orang tuanya kaya raya, tidak pernah khawatir soal kebutuhan hidup, dan ia memiliki masa kecil yang penuh kasih sayang. Saat remaja, ayahnya direkrut untuk ikut perang. Perang berakhir setahun kemudian, namun ayahnya tidak pernah kembali. Ia tidak pernah ditemukan. Setelah lulus SMA, Clu menjadi detektif swasta dengan harapan bisa mengungkap detail hilangnya sang ayah.
+        </td>
+        <td><img src="female.jpg" width="50%" height="50%"></td>
+        <td style="text-align: justify;">
+          Tracing Steps (Skill Aktif)
+Clu bisa mendeteksi lokasi musuh yang sedang berdiri atau berjalan (tidak jongkok atau tiarap).
+Jarak deteksi meningkat sesuai level, hingga 70 meter di level maksimal.
+Durasi skill: hingga 10 detik.
+Cooldown: sekitar 60 detik di level tertinggi.
+Informasi posisi musuh yang terdeteksi juga dibagikan ke seluruh tim, bikin strategi makin solid.
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size: 40px;">
+          Kapella
+        </td>
+        <td><img src="kapella.jpeg" width="70%" height="70%"></td>
+        <td style="text-align: justify;">
+          Kapella dibesarkan oleh keluarga yang menyadari bakat menyanyinya dan ingin ia menjadi terkenal. Ketenarannya diharapkan dapat membantu keluarga mendapatkan penghormatan di masyarakat, tanpa benar-benar peduli apa yang diinginkan Kapella selama ia sukses. Kapella sangat suka bernyanyi dan mulai menyanyikan lagu-lagu pop, namun ia belum menyadari bahwa keluarganya memanfaatkannya untuk kepentingan mereka sendiri.
+        </td>
+        <td><img src="female.jpg" width="50%" height="50%"></td>
+        <td style="text-align: justify;">
+          Healing Song (Skill Pasiff)
+Skill ini meningkatkan efektivitas pemulihan dan memperlambat kehilangan HP saat sekarat. Di level maksimal, efeknya seperti ini:
++20% efek item healing (medkit, jamur, dll).
++10% efek skill healing (misalnya skill Alok, K, atau Dimitri).
+Mengurangi kehilangan HP teman satu tim saat berada di bawah 20% HP.
+Efek tidak menumpuk jika ada karakter lain dengan skill serupa
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size: 40px;">
+          Laura
+        </td>
+        <td><img src="laura.jpg" width="70%" height="70%"></td>
+        <td style="text-align: justify;">
+            Laura adalah lulusan terbaik di kelasnya dan penembak jitu terbaik yang pernah dihasilkan oleh peletonnya. Sejak kecil, ia selalu memenangkan setiap kompetisi menembak yang diikutinya, bahkan kadang sudah menyelesaikan lomba sebelum pesaingnya mulai. Ketika ayahnya menghilang dalam Perang, Laura memutuskan menjadi agen khusus untuk mencoba menemukan ayahnya. Masih dalam pencariannya, ia bekerja untuk Agensi dan menumpas para kriminal yang meresahkan kotanya. Seiring berjalannya waktu, Laura mulai mempertanyakan hidupnya ketika ia ditugaskan untuk memburu target yang ternyata tidak seperti yang diceritakan kepadanya.
+        </td>
+        <td><img src="female.jpg" width="50%" height="50%"></td>
+        <td style="text-align: justify;">
+          Sharp Shooter (Skill Pasif)
+Meningkatkan akurasi tembakan saat menggunakan scope.
+Di level maksimal, Laura memberikan +50% akurasi saat kamu membidik dengan scope.
+Skill ini aktif otomatis, jadi cocok banget buat kamu yang suka main sniper, AR dengan scope, atau DMR.
+Membantu banget buat headshot jarak jauh atau duel tembak presisi.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
